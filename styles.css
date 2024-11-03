@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto blanco */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #3e444e; /* Color de fondo de la caja */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Ajustar ancho de la caja */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="file"],
+input[type="text"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50; /* Color verde para el botón */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Color de botón en hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #4caf50; /* Color de fondo del encabezado de la tabla */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordes de celdas */
+}
+
+.repeated {
+    background-color: #ffcccc; /* Color de fondo para elementos repetidos */
+}

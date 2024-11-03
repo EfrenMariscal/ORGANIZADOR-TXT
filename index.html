@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Organizador de Datos</h1>
+        <input type="file" id="fileInput" accept=".txt">
+        <input type="text" id="delimiter" placeholder="Delimitador (por defecto: ,)">
+        <select id="sortType">
+            <option value="alphabetical">Alfabético</option>
+            <option value="reverseAlphabetical">Alfabético Inverso</option>
+            <option value="numeric">Numérico</option>
+        </select>
+        <button id="sortButton">Organizar</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Elementos</th>
+                </tr>
+            </thead>
+            <tbody id="resultBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
